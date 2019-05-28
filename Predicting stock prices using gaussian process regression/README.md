@@ -5,9 +5,13 @@
 # Idea: 
 <p> We are going to deal with two forecasting problems, one is predict yearly, another is quarterly. <p>
 1. Independent variables (X): the year and the day of the year
+  
 2. Dependent variable (Y): normalized adjusted closing price for each day in a year
+
 3. We're going to build a new df, with each row is one day, each column in one year, and the num_rows is limitted to 252 as common knowledge
+
 4. We also add the fiscal quarter associated with each row to predict for quarterly stock
+
 5. make_gp_predictions contains pred_quarters param to indicate whether predicting quarters specified instead of the entire year.
   E.g: pre_quaters = [4] means the function will predict for quarter 4 of  2018, using all the data till quarter 3 of 2018
 
