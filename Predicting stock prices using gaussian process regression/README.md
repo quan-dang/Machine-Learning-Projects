@@ -4,6 +4,7 @@
 
 # Idea: 
 <p> We are going to deal with two forecasting problems, one is predict yearly, another is quarterly. <p>
+
 1. Independent variables (X): the year and the day of the year
   
 2. Dependent variable (Y): normalized adjusted closing price for each day in a year
